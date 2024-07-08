@@ -1,3 +1,7 @@
-var nome = window.prompt('Qual seu nome?') //faz uma pergunta e pede a resposta do usuario
+var n1 = Number/*.parseInt*/(window.prompt('Digite um numero!')) //Number.parseInt serve para transformar em numero inteiro uma string, tambem pode ser usado parseInt(n)
 
-window.alert('É um grande prazer te conhcecer, ' + nome + '!') // sinal de mais serve para concatenação
+var n2 = Number/*.parseFloat*/(window.prompt('Digite outro numero!')) //Number parseFloat serve para transformar em numero real uma string parseFloat(n)
+
+var n3 = n1 + n2
+
+window.alert('A soma dos numeros é: ' + n3 + '!')
