@@ -4,4 +4,4 @@ var n2 = Number/*.parseFloat*/(window.prompt('Digite outro numero!')) //Number p
 
 var n3 = n1 + n2
 
-window.alert('A soma dos numeros é: ' + n3 + '!')
+window.alert(`A soma entre ${n1} e ${n2} é ${n3}!`) // usando tempalte string para o codigo ficar melhor legivel
